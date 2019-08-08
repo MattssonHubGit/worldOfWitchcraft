@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1848230397641881206}
+  - component: {fileID: 4567437823268220646}
   m_Layer: 0
-  m_Name: GridTile
+  m_Name: GridTile - No alpha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,6 +32,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4567437823268220646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848230397641881207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f727aa61668af534f800a3b436aaeef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbourN: {fileID: 0}
+  neighbourE: {fileID: 0}
+  neighbourS: {fileID: 0}
+  neighbourW: {fileID: 0}
+  spriteRenderer: {fileID: 1848230398135771785}
 --- !u!1 &1848230398135771831
 GameObject:
   m_ObjectHideFlags: 0

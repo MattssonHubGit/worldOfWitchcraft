@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace Grid
 {
-    public class GridTile 
+    public class GridTile  : MonoBehaviour
     {
         public GridTile neighbourN;
         public GridTile neighbourE;
         public GridTile neighbourS;
         public GridTile neighbourW;
-
-        [SerializeField] private SpriteRenderer spriteRenderer { get; }
+        [Space]
+        [SerializeField] private SpriteRenderer spriteRenderer;
 
     }
 }

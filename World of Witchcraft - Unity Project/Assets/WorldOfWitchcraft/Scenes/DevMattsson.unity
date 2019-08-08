@@ -151,6 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelToSpawn: {fileID: 2800000, guid: 6c44074b4f27a804db6e5876068de4c8, type: 3}
   decoder: {fileID: 11400000, guid: 17b4e8cceff9b8f4581656589250d765, type: 2}
+  horizontalAdjustment: 1.25
+  verticalAdjustment: 1.25
 --- !u!4 &37448146
 Transform:
   m_ObjectHideFlags: 0
